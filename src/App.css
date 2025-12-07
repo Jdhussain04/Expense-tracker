@@ -50,7 +50,7 @@
 
 
 
-		/* 🔥 Mobile Responsive (max-width: 480px) */
+/* 🔥 Mobile Responsive (max-width: 480px) */
 @media (max-width: 480px) {
 
   .app-container {
@@ -60,16 +60,16 @@
   }
 
   h1 {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .expense-form {
     flex-direction: column;
-    gap: 18px;
+    gap: 12px;
   }
 
   .expense-form input {
-    width: 90%;
+    width: 100%;
     padding: 10px;
     font-size: 16px;
   }
@@ -82,12 +82,14 @@
 
   .expense-item {
     padding: 12px;
+    /* flex-direction: column; */
     align-items: flex-start;
     gap: 6px;
   }
 
-  /* .expense-item button {
-    width: 100%;
-  } */
+  .expense-item button {
+    width: 20%;
+  }
 
 }
+
