@@ -47,3 +47,47 @@
 		  text-align: center;
 		  color: #888;
 		}
+
+
+
+		/* 🔥 Mobile Responsive (max-width: 480px) */
+@media (max-width: 480px) {
+
+  .app-container {
+    max-width: 100%;
+    margin: 20px 10px;
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 25px;
+  }
+
+  .expense-form {
+    flex-direction: column;
+    gap: 18px;
+  }
+
+  .expense-form input {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .expense-form button {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .expense-item {
+    padding: 12px;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  /* .expense-item button {
+    width: 100%;
+  } */
+
+}
